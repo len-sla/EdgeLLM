@@ -121,3 +121,7 @@ Summary
 Using a Raspberry Pi with the Ollama package allows for small models to perform reasoning-based decisions. This approach is particularly useful in scenarios requiring reasoning and flexibility, enabling the use of small models to fulfill non-deterministic components of the code.
 
 ![](q2.gif)
+
+
+### If you want more info
+lencz.sla@gmail.com
