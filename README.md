@@ -32,7 +32,7 @@ response = requests.post(url, json=payload, stream=True)
 ```
 #### ![ Interactive Example](stable-code.ipynb)
 
-An interactive example for asking questions is provided in the star-code.ipynb file. Since the Raspberry Pi requires some time to process requests, the stream=True option is used. This ensures the process's results are streamed and also saved to a Markdown file named output.md.
+An interactive example for asking questions is provided in the star-code.ipynb file. Since the Raspberry Pi requires some time to process requests, the stream=True option is used. This ensures the process's results are streamed and also saved to a Markdown file named output.md. In case of any hung up user could see that as well.
 
 
 ####  ![Classification Example ]( qwen.ipynb)
