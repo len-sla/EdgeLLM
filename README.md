@@ -126,5 +126,7 @@ Using a Raspberry Pi with the Ollama package allows for small models to perform 
 
 If there is need to convert pdf to markdown file here is everything you need to quickly create docker image and then convert
 ![convert pdf to markdown](hawtopdf-to-md.md)
+
+![No SQL Expertise? No Problem!](SQLExpertise.md)
 ### If you want more info
 lencz.sla@gmail.com
