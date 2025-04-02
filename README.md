@@ -116,6 +116,16 @@ docker build -t v_llm_jupyterlab .
 
 docker run -it --rm --name v_llm_juplab -p 8888:8888 -v $(pwd):/app v_llm_jupyterlab
 ```
+
+if there is need to use pydantic-ai package then use  requirements_pydanti_ai.txt content to create image
+
+creating docker image and running:
+
+```
+docker build --no-cache -t v_llm_jupyterlab_pyd_ai .  
+
+docker run -it --rm --name v_llm_juplab_py_ai -p 8888:8888 -v $(pwd):/app v_llm_jupyterlab_pyd_ai
+```
 Summary
 
 Using a Raspberry Pi with the Ollama package allows for small models to perform reasoning-based decisions. This approach is particularly useful in scenarios requiring reasoning and flexibility, enabling the use of small models to fulfill non-deterministic components of the code.
